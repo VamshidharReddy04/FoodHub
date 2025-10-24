@@ -1,11 +1,36 @@
-[
-    {
-        "CategoryName": "Biryani/Rice"
-    },
-    {
-        "CategoryName": "Starter"
-    },
-    {
-        "CategoryName": "Pizza"
-    }
-]
+[{
+  "_id": {
+    "$oid": "68f7496e1c34cf61651eeb5a"
+  },
+  "CategoryName": "Starter"
+},
+{
+  "_id": {
+    "$oid": "68f7496e1c34cf61651eeb5b"
+  },
+  "CategoryName": "Pizza"
+},
+{
+  "_id": {
+    "$oid": "68f7496e1c34cf61651eeb5c"
+  },
+  "CategoryName": "Biryani/Rice"
+},
+{
+  "_id": {
+    "$oid": "68fb3bbeba74e7226595ff29"
+  },
+  "CategoryName": "Ice-Cream"
+},
+{
+  "_id": {
+    "$oid": "68fb3be6ba74e7226595ff2a"
+  },
+  "CategoryName": "Curries"
+},
+{
+  "_id": {
+    "$oid": "68fb416eba74e7226595ff43"
+  },
+  "CategoryName": "Snacks"
+}]

@@ -1,148 +1,473 @@
-[
+[{
+  "_id": {
+    "$oid": "68f746755ad2fe1029dfafaf"
+  },
+  "CategoryName": "Starter",
+  "name": "Paneer Tikka",
+  "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+  "options": [
     {
-        "CategoryName": "Biryani/Rice",
-        "name": "Chicken Fried Rice",
-        "img": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMGZyaWVkJTIwcmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "options": [
-            {
-                "half": "130",
-                "full": "220"
-            }
-        ],
-        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
-    },
-    {
-        "CategoryName": "Biryani/Rice",
-        "name": "Veg Fried Rice",
-        "img": "https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmVnJTIwZnJpZWQlMjByaWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "options": [
-            {
-                "half": "110",
-                "full": "200"
-            }
-        ],
-        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
-    },
-    {
-        "CategoryName": "Biryani/Rice",
-        "name": "Fish Biryani",
-        "img": "https://media.istockphoto.com/photos/king-fish-biryani-with-raita-served-in-a-golden-dish-isolated-on-dark-picture-id1409942571?b=1&k=20&m=1409942571&s=170667a&w=0&h=ozlMJf5hsDmS2sSdEdBWnoSZOEITef4qGMeWeq2lyTc=",
-        "options": [
-            {
-                "half": "200",
-                "full": "320"
-            }
-        ],
-        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
-    },
-    {
-        "CategoryName": "Biryani/Rice",
-        "name": "Chicken Biryani",
-        "img": "https://cdn.pixabay.com/photo/2019/11/04/12/16/rice-4601049__340.jpg",
-        "options": [
-            {
-                "half": "170",
-                "full": "300"
-            }
-        ],
-        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
-    },
-    {
-        "CategoryName": "Biryani/Rice",
-        "name": "Veg Biryani",
-        "img": "https://media.istockphoto.com/photos/veg-biryani-picture-id1363306527?b=1&k=20&m=1363306527&s=170667a&w=0&h=VCbro7CX8nq2kruynWOCO2GbMGCea2dDJy6O6ebCKD0=",
-        "options": [
-            {
-                "half": "150",
-                "full": "260"
-            }
-        ],
-        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
-    },
-    {
-        "CategoryName": "Biryani/Rice",
-        "name": "Prawns Fried Rice",
-        "img": "https://cdn.pixabay.com/photo/2018/03/23/08/27/thai-fried-rice-3253027__340.jpg",
-        "options": [
-            {
-                "half": "120",
-                "full": "220"
-            }
-        ],
-        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
-    },
-    {
-        "CategoryName": "Starter",
-        "name": "Chilli Paneer",
-        "img": "https://media.istockphoto.com/photos/spicy-paneer-or-chilli-paneer-or-paneer-tikka-or-cottage-cheese-in-picture-id697316634?b=1&k=20&m=697316634&s=170667a&w=0&h=bctfHdYTz9q2dJUnuxGRDUUwC9UBWjL_oQo5ECVVDAs=",
-        "options": [
-            {
-                "half": "120",
-                "full": "200"
-            }
-        ],
-        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
-    },
-    {
-        "CategoryName": "Starter",
-        "name": "Paneer 65",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-kabab-in-red-sauce-is-an-indian-dish-made-from-chunks-of-picture-id1257507446?b=1&k=20&m=1257507446&s=170667a&w=0&h=Nd7QsslbvPqOcvwu1bY0rEPZXJqwoKTYCal3nty4X-Y=",
-        "options": [
-            {
-                "half": "150",
-                "full": "260"
-            }
-        ],
-        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
-    },
-    {
-        "CategoryName": "Starter",
-        "name": "Chicken Tikka",
-        "img": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMHRpa2thfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "options": [
-            {
-                "half": "170",
-                "full": "300"
-            }
-        ],
-        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
-    },
-    {
-        "CategoryName": "Starter",
-        "name": "Paneer Tikka",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
-        "options": [
-            {
-                "half": "170",
-                "full": "250"
-            }
-        ],
-        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
-    },
-    {
-        "CategoryName": "Pizza",
-        "name": "Chicken Cheese Pizza",
-        "img": "https://media.istockphoto.com/photos/double-topping-pizza-on-the-wooden-desk-isolated-picture-id1074109872?k=20&m=1074109872&s=612x612&w=0&h=JoYwwTfU_mMBykXpRB_DmgeecfotutOIO9pV5_JObpk=",
-        "options": [
-            {
-                "regular": "120",
-                "medium": "230",
-                "large": "350"
-            }
-        ],
-        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
-    },
-    {
-        "CategoryName": "Pizza",
-        "name": "Mix Veg Pizza",
-        "img": "https://media.istockphoto.com/photos/chinese-food-veg-pizza-picture-id1341905237?k=20&m=1341905237&s=612x612&w=0&h=Lbuza1Ig5cC1PwQhqTsq-Uac8hg1W-V0Wx4d4lqDeB0=",
-        "options": [
-            {
-                "regular": "100",
-                "medium": "200",
-                "large": "300"
-            }
-        ],
-        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+      "half": "170",
+      "full": "250"
     }
-]
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+},
+{
+  "_id": {
+    "$oid": "68f746755ad2fe1029dfafb0"
+  },
+  "CategoryName": "Starter",
+  "name": "Chicken Tikka",
+  "img": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMHRpa2thfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  "options": [
+    {
+      "half": "170",
+      "full": "300"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+},
+{
+  "_id": {
+    "$oid": "68f746755ad2fe1029dfafab"
+  },
+  "CategoryName": "Biryani/Rice",
+  "name": "Chicken Biryani",
+  "img": "https://cdn.pixabay.com/photo/2019/11/04/12/16/rice-4601049__340.jpg",
+  "options": [
+    {
+      "half": "170",
+      "full": "300"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+},
+{
+  "_id": {
+    "$oid": "68f746755ad2fe1029dfafac"
+  },
+  "CategoryName": "Biryani/Rice",
+  "name": "Fish Biryani",
+  "img": "https://media.istockphoto.com/photos/king-fish-biryani-with-raita-served-in-a-golden-dish-isolated-on-dark-picture-id1409942571?b=1&k=20&m=1409942571&s=170667a&w=0&h=ozlMJf5hsDmS2sSdEdBWnoSZOEITef4qGMeWeq2lyTc=",
+  "options": [
+    {
+      "half": "200",
+      "full": "320"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+},
+{
+  "_id": {
+    "$oid": "68f746755ad2fe1029dfafb2"
+  },
+  "CategoryName": "Biryani/Rice",
+  "name": "Veg Fried Rice",
+  "img": "https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmVnJTIwZnJpZWQlMjByaWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  "options": [
+    {
+      "half": "110",
+      "full": "200"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+},
+{
+  "_id": {
+    "$oid": "68f746755ad2fe1029dfafb5"
+  },
+  "CategoryName": "Starter",
+  "name": "Paneer 65",
+  "img": "https://media.istockphoto.com/photos/paneer-tikka-kabab-in-red-sauce-is-an-indian-dish-made-from-chunks-of-picture-id1257507446?b=1&k=20&m=1257507446&s=170667a&w=0&h=Nd7QsslbvPqOcvwu1bY0rEPZXJqwoKTYCal3nty4X-Y=",
+  "options": [
+    {
+      "half": "150",
+      "full": "260"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+},
+{
+  "_id": {
+    "$oid": "68f746755ad2fe1029dfafb6"
+  },
+  "CategoryName": "Biryani/Rice",
+  "name": "Veg Biryani",
+  "img": "https://media.istockphoto.com/photos/veg-biryani-picture-id1363306527?b=1&k=20&m=1363306527&s=170667a&w=0&h=VCbro7CX8nq2kruynWOCO2GbMGCea2dDJy6O6ebCKD0=",
+  "options": [
+    {
+      "half": "150",
+      "full": "260"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+},
+{
+  "_id": {
+    "$oid": "68f746755ad2fe1029dfafb1"
+  },
+  "CategoryName": "Pizza",
+  "name": "Chicken Cheese Pizza",
+  "img": "https://cdn.dotpe.in/longtail/store-items/7885519/6oPcvMcG.jpeg ",
+  "options": [
+    {
+      "regular": "120",
+      "medium": "230",
+      "large": "350"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+},
+{
+  "_id": {
+    "$oid": "68f746755ad2fe1029dfafae"
+  },
+  "CategoryName": "Biryani/Rice",
+  "name": "Prawns Fried Rice",
+  "img": "https://cdn.pixabay.com/photo/2018/03/23/08/27/thai-fried-rice-3253027__340.jpg",
+  "options": [
+    {
+      "half": "120",
+      "full": "220"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+},
+{
+  "_id": {
+    "$oid": "68f746755ad2fe1029dfafb4"
+  },
+  "CategoryName": "Starter",
+  "name": "Chilli Paneer",
+  "img": "https://media.istockphoto.com/photos/spicy-paneer-or-chilli-paneer-or-paneer-tikka-or-cottage-cheese-in-picture-id697316634?b=1&k=20&m=697316634&s=170667a&w=0&h=bctfHdYTz9q2dJUnuxGRDUUwC9UBWjL_oQo5ECVVDAs=",
+  "options": [
+    {
+      "half": "120",
+      "full": "200"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+},
+{
+  "_id": {
+    "$oid": "68f746755ad2fe1029dfafad"
+  },
+  "CategoryName": "Biryani/Rice",
+  "name": "Chicken Fried Rice",
+  "img": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMGZyaWVkJTIwcmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+  "options": [
+    {
+      "half": "130",
+      "full": "220"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+},
+{
+  "_id": {
+    "$oid": "68fa1b81a57410510fd3a964"
+  },
+  "CategoryName": "Pizza",
+  "name": "Mix Veg Pizza",
+  "img": "https://vegplatter.in/files/public/images/partner/catalog/272/Mix.-Veg.-Pizza.jpg ",
+  "options": [
+    {
+      "regular": "100",
+      "medium": "200",
+      "large": "300"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+},
+{
+  "_id": {
+    "$oid": "68fb3dbeba74e7226595ff2c"
+  },
+  "CategoryName": "Ice-Cream",
+  "name": "Classic Strawberry Ice Cream",
+  "img": "https://www.tasteofhome.com/wp-content/uploads/2017/09/exps8708_C2640C49B_RMS.jpg",
+  "options": [
+    {
+      "single": "120",
+      "family": "220"
+    }
+  ],
+  "description": "Creamy vanilla‐strawberry swirled ice-cream made with fresh strawberries and real cream."
+},
+{
+  "_id": {
+    "$oid": "68fb3dd8ba74e7226595ff2d"
+  },
+  "CategoryName": "Curries",
+  "name": "Butter Chicken Curry",
+  "img": "https://images.immediate.co.uk/production/volatile/sites/2/2017/04/Butter-chicken-5e0e51c.jpg ",
+  "options": [
+    {
+      "regular": "350",
+      "large": "600"
+    }
+  ],
+  "description": "Tender chicken pieces cooked in a rich tomato-butter gravy, with Indian spices and a hint of cream."
+},
+{
+  "_id": {
+    "$oid": "68fb3df1ba74e7226595ff2e"
+  },
+  "CategoryName": "Ice-Cream",
+  "name": "Gulab Jamun with Ice Cream",
+  "img": "https://someindiangirl.com/wp-content/uploads/2021/09/Gulab-Jamun-Ice-Cream-1-9-of-14-scaled.jpg ",
+  "options": [
+    {
+      "single": "180",
+      "share": "300"
+    }
+  ],
+  "description": "Soft gulab jamuns served warm with vanilla ice-cream and drizzled with rose-saffron syrup."
+},
+{
+  "_id": {
+    "$oid": "68fb3e16ba74e7226595ff2f"
+  },
+  "CategoryName": "Ice-Cream",
+  "name": "Chocolate Fudge Sundae",
+  "img": "https://www.nationaldaycalendar.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cg_faces:center%2Cq_auto:eco%2Cw_768/MjA4MDM0Mjk5MDUwNDY5MDA4/website-feature---national-hot-fudge-sundae-day--july-25.png",
+  "options": [
+    {
+      "single": "120",
+      "double": "200"
+    }
+  ],
+  "description": "Rich chocolate ice-cream layered with fudge sauce, nuts, and whipped cream."
+},
+{
+  "_id": {
+    "$oid": "68fb3e22ba74e7226595ff30"
+  },
+  "CategoryName": "Curries",
+  "name": "Paneer Butter Masala",
+  "img": "https://myfoodstory.com/wp-content/uploads/2021/10/Paneer-Butter-Masala-1-2.jpg",
+  "options": [
+    {
+      "regular": "250",
+      "large": "400"
+    }
+  ],
+  "description": "Cubes of cottage cheese cooked in a creamy tomato gravy with butter and spices."
+},
+{
+  "_id": {
+    "$oid": "68fb3e3cba74e7226595ff31"
+  },
+  "CategoryName": "Curries",
+  "name": "Chicken Tikka Masala",
+  "img": "https://www.spicebangla.com/wp-content/uploads/2024/04/chicken-tikka-masala.jpg",
+  "options": [
+    {
+      "regular": "300",
+      "large": "500"
+    }
+  ],
+  "description": "Chargrilled chicken pieces simmered in spiced tomato and cream sauce."
+},
+{
+  "_id": {
+    "$oid": "68fb3e6fba74e7226595ff32"
+  },
+  "CategoryName": "Ice-Cream",
+  "name": "Rasmalai",
+  "img": "https://images.archanaskitchen.com/images/recipes/indian/sweet-recipes/traditional_rasmalai_recipe_d5b18e48ac.jpg",
+  "options": [
+    {
+      "single": "150",
+      "pack": "280"
+    }
+  ],
+  "description": "Soft paneer patties soaked in sweetened milk flavored with cardamom and saffron."
+},
+{
+  "_id": {
+    "$oid": "68fb3e8bba74e7226595ff33"
+  },
+  "CategoryName": "Snacks",
+  "name": "Veg Manchurian",
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDE1T1Jn_4Tjeh6kRSNBcz1SSGA1sZhtpTRQ&s",
+  "options": [
+    {
+      "half": "180",
+      "full": "320"
+    }
+  ],
+  "description": "Crispy vegetable balls tossed in tangy Indo-Chinese Manchurian sauce."
+},
+{
+  "_id": {
+    "$oid": "68fb3ebbba74e7226595ff34"
+  },
+  "CategoryName": "Pizza",
+  "name": "Margherita Pizza",
+  "img": "https://cookingitalians.com/wp-content/uploads/2024/11/Margherita-Pizza.jpg",
+  "options": [
+    {
+      "regular": "120",
+      "medium": "220",
+      "large": "320"
+    }
+  ],
+  "description": "Classic cheese and tomato pizza with basil leaves and a thin crispy crust."
+},
+{
+  "_id": {
+    "$oid": "68fb3ec7ba74e7226595ff35"
+  },
+  "CategoryName": "Pizza",
+  "name": "Pepperoni Feast",
+  "img": "https://thumbs.dreamstime.com/b/perfectly-baked-gourmet-pepperoni-pizza-spinach-visual-feast-lovers-indulge-irresistible-allure-bursting-351671888.jpg ",
+  "options": [
+    {
+      "regular": "180",
+      "medium": "280",
+      "large": "380"
+    }
+  ],
+  "description": "Loaded with spicy pepperoni, mozzarella cheese, and tangy tomato sauce."
+},
+{
+  "_id": {
+    "$oid": "68fb3ed3ba74e7226595ff36"
+  },
+  "CategoryName": "Pizza",
+  "name": "Paneer Tikka Pizza",
+  "img": "https://images.archanaskitchen.com/images/recipes/world-recipes/pizza-recipes/Tandoori_Paneer_Tikka_Skillet_Pizza_c7fd6e1338.jpg",
+  "options": [
+    {
+      "regular": "160",
+      "medium": "260",
+      "large": "360"
+    }
+  ],
+  "description": "Indian-style pizza topped with marinated paneer cubes, onions, and capsicum."
+},
+{
+  "_id": {
+    "$oid": "68fb3ee1ba74e7226595ff37"
+  },
+  "CategoryName": "Pizza",
+  "name": "Veggie Delight",
+  "img": "https://mrprabhu.in/uploads/products/202--1736798946.jpg",
+  "options": [
+    {
+      "regular": "150",
+      "medium": "250",
+      "large": "340"
+    }
+  ],
+  "description": "Loaded with fresh vegetables—bell peppers, olives, corn, and mushrooms."
+},
+{
+  "_id": {
+    "$oid": "68fb3ef0ba74e7226595ff38"
+  },
+  "CategoryName": "Pizza",
+  "name": "BBQ Chicken Pizza",
+  "img": "https://d3s8tbcesxr4jm.cloudfront.net/recipe-images/ic-1/smoky-bbq-chicken-pizza-with-caramelized-onions-and-double-cheese.jpg",
+  "options": [
+    {
+      "regular": "200",
+      "medium": "300",
+      "large": "400"
+    }
+  ],
+  "description": "Grilled chicken, BBQ sauce, red onions, and mozzarella cheese for a smoky flavor."
+},
+{
+  "_id": {
+    "$oid": "68fb3efeba74e7226595ff39"
+  },
+  "CategoryName": "Starter",
+  "name": "Crispy Corn",
+  "img": "https://i.pinimg.com/736x/a1/1a/0f/a11a0fa47f8af26b673e46dbd0541204.jpg",
+  "options": [
+    {
+      "half": "120",
+      "full": "200"
+    }
+  ],
+  "description": "Golden fried corn kernels tossed with spices, spring onions, and lemon juice."
+},
+{
+  "_id": {
+    "$oid": "68fb3f0dba74e7226595ff3a"
+  },
+  "CategoryName": "Starter",
+  "name": "Chicken Wings",
+  "img": "https://www.thecookierookie.com/wp-content/uploads/2024/02/bbq-chicken-wings-recipe-featured-image.jpg",
+  "options": [
+    {
+      "half": "180",
+      "full": "320"
+    }
+  ],
+  "description": "Juicy chicken wings glazed with spicy BBQ sauce, served with ranch dip."
+},
+{
+  "_id": {
+    "$oid": "68fb4020ba74e7226595ff3e"
+  },
+  "CategoryName": "Snacks",
+  "name": "French Fries",
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4PveD515Fo3YjI5ZBSqUw9pBqb9_2fUrujg&s",
+  "options": [
+    {
+      "small": "80",
+      "medium": "120",
+      "large": "160"
+    }
+  ],
+  "description": "Crispy golden fries made from fresh potatoes, lightly salted and served hot."
+},
+{
+  "_id": {
+    "$oid": "68fb402eba74e7226595ff3f"
+  },
+  "CategoryName": "Snacks",
+  "name": "Veg Puff",
+  "img": "https://www.enhanceyourpalate.com/wp-content/uploads/Tandoori-Curry-Puff-Veg-Puff-Recipe.jpg",
+  "options": [
+    {
+      "single": "50",
+      "packOf3": "120"
+    }
+  ],
+  "description": "Flaky puff pastry stuffed with spicy mashed vegetables, baked to perfection."
+},
+{
+  "_id": {
+    "$oid": "68fb403dba74e7226595ff40"
+  },
+  "CategoryName": "Snacks",
+  "name": "Samosa",
+  "img": "https://www.nehascookbook.com/wp-content/uploads/2022/10/Chanadal-samosa-WS-1.jpg",
+  "options": [
+    {
+      "single": "30",
+      "pair": "50"
+    }
+  ],
+  "description": "Crispy fried pastry filled with spicy mashed potatoes, peas, and aromatic spices."
+},
+{
+  "_id": {
+    "$oid": "68fb415dba74e7226595ff41"
+  },
+  "CategoryName": "Snacks",
+  "name": "Masala Sandwich",
+  "img": "https://vaya.in/recipes/wp-content/uploads/2019/02/Masala-Sandwich.jpg",
+  "options": [
+    {
+      "single": "90",
+      "grilled": "130"
+    }
+  ],
+  "description": "Toasted sandwich layered with spicy potato masala, onions, and chutneys."
+}]
