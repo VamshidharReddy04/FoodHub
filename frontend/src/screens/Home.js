@@ -16,7 +16,7 @@ export default function Home() {
   const loadData = async () => {
     try {
       setLoading(true);
-      let response = await fetch('http://localhost:5000/api/foodData', {
+      let response = await fetch('/api/foodData', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({}),
@@ -104,7 +104,7 @@ export default function Home() {
         {/* pass search state and setter to Carousel so user can type search */}
         <div className='m-1'><Carousel /></div>
 
-        <div className='m-3 container' style={{ color: '#307c79ff' }}>
+        <div className='m-3 container' style={{ color: '#c5d3e1ff' }}>
           <div className="mb-3 d-flex gap-2">
             <input
               className="form-control"

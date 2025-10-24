@@ -4,14 +4,14 @@ const port = 5000;
 const { mongoDB, getFoodItems } = require('./db');
 
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', "http://localhost:3000");
+  res.setHeader('Access-Control-Allow-Origin', req.headers.origin || '*');
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
   next();
 });
 
 app.use(express.json());
 
-// start DB, then mount routes and start server
 (async () => {
   try {
     await mongoDB();
@@ -30,9 +30,11 @@ app.use(express.json());
       }
     });
 
-    app.listen(port, () => {
-      console.log(`Server is running at http://localhost:${port}`);
-    });
+    if (process.env.NODE_ENV !== 'production') {
+      app.listen(port, () => {
+        console.log(`Server is running at http://localhost:${port}`);
+      });
+    }
   } catch (err) {
     console.error('Failed to connect to MongoDB, server not started:', err);
   }
