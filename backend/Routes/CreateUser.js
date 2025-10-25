@@ -1,6 +1,5 @@
 const express=require('express');
 const router=express.Router();
-// Use lowercase path to be cross-platform (Windows/macOS/Linux)
 const User=require('../models/User');
 const {body, validationResult}=require('express-validator');
 const bcrypt=require('bcryptjs');
@@ -21,28 +20,28 @@ router.post('/createuser',[
     const salt=await bcrypt.genSalt(10);
     const hashedPassword=await bcrypt.hash(req.body.password,salt);
     try{
-                const created = await User.create({
+        const created = await User.create({
             name:req.body.name,
             email:req.body.email,
             password:hashedPassword,
             location:req.body.location               
         })
-                return res.status(201).json({
-                    success: true,
-                    message: 'User created successfully',
-                    user: {
-                        id: created.id,
-                        name: created.name,
-                        email: created.email,
-                        location: created.location,
-                    }
-                });
+        return res.status(201).json({
+            success: true,
+            message: 'User created successfully',
+            user: {
+                id: created.id,
+                name: created.name,
+                email: created.email,
+                location: created.location,
+            }
+        });
     }catch(error){
-                console.error('Error creating user:',error);
-                if (error && error.code === 11000) {
-                    return res.status(400).json({ success: false, message: 'Email already exists' });
-                }
-                return res.status(500).json({ success: false, message: 'Failed to create user' });
+        console.error('Error creating user:',error);
+        if (error && error.code === 11000) {
+            return res.status(400).json({ success: false, message: 'Email already exists' });
+        }
+        return res.status(500).json({ success: false, message: 'Failed to create user' });
     }
 });
 //login route
